@@ -2,11 +2,12 @@ import * as React from 'react';
 // 引入样式
 import './Hello.css'
 
-// 定义接口类型
+// 在定义接口的时候要注意接口名首字母要大写
+// 定义 Props 接口有那些字段名
 interface Props {
   message: string
 }
-
+// 定义 State 接口有那些字段名
 interface State {
   count: number
 }
